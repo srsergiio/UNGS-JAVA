@@ -1,0 +1,49 @@
+package P1;
+
+
+public class Practiva3 {
+
+	//recorre el array apartir de el indice indicado 
+static double[] ArrMin(double[] arr,int ind){ //te tira el minimo y su ubicacion en el arr
+	double Min=arr[0];
+	double[]infoPosicion=new double[2];
+for (int i =ind;i<arr.length;i++) {
+	if(arr[i]<Min) {
+		infoPosicion[0]=arr[i];
+		infoPosicion[1]=i;
+		System.out.println(""+arr[i]);
+		}
+	}
+return infoPosicion;
+}
+
+
+
+static double[] ArrOrdenado (double arr0[]) {
+	double []arr1= new double[1];
+	for(int i=0;i<arr0.length;i++) {
+			//consigo minimo apartir del indice tal
+			double[]arr2=ArrMin(arr0,i);
+			
+			// re ordeno arr original
+			arr1[0]=arr0[i];//hace el bkp
+			arr0[i]=arr2[0];//coloco el minimo encontrado al principio
+			arr0[(int)arr2[1]]=arr1[0];//el numero que no es el minimo lo muevo donde se encontro el minimo		
+		}
+	return arr0;
+	}
+	
+
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		for(int i=1;i<21;i++){
+			System.out.println(i+" ");
+		}
+		
+		}
+
+}

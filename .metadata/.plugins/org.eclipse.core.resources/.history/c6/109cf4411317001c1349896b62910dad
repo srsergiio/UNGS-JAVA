@@ -1,0 +1,36 @@
+package P1;
+
+public class Practica1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//que es una sentencia ?
+		
+		/* */
+		
+		//que es un comentario?
+		
+		/* */
+		
+		//que quiere decir que un programa sea portable ?
+		
+		/*se refire a que los lenguajes se puedan ejecutar en cualquier pc sin modificacion alguna java 
+		 * lo hace compilando el codigo y generando el archivo bycode que se puede tranferir a otras pc y sistemas operativos*/
+		
+		//a que nos referimos con compilar un programa ?
+
+		/* Nos referimos a compilar un programa es a traducir todo el programa a lenguaje de maquina para despues ejecutarlo todo  */
+		
+		// que es un lenguaje interpretado ?
+		
+		/* Nos referimos a un interprete cuando un programa se va traduciendo de 
+		 * a partes o instruciones  y lo va ejecutando para continuar con la siguiente  */
+		
+		
+		String mensaje= "Hola mundo" ;
+		System.out.print(mensaje);
+		System.out.println(mensaje+ " 2");
+		System.out.print(mensaje+ " 2");
+	}
+
+}

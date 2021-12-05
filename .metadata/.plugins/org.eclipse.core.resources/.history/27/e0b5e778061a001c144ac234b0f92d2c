@@ -1,0 +1,39 @@
+package P1;
+
+
+
+public class Practiva3 {
+
+	
+static double ArrMin(int[] array){
+	double Min=array[0];
+for (int i =0;i<array.length;i++) {
+	if(array[i]<Min) {
+		Min=array[i];
+		}
+	}
+return Min;
+}
+
+/*
+
+Ordenado (double array[]) {
+	double [] lista= new double[array.length];
+	int CountNull;
+	double Min;
+	int correciones;
+	while(CountNull != array.length) {
+		for(int i =0;i<array.length;i++) {
+			
+		
+	}
+	return lista[];
+}
+	*/
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double []array= new double[5];
+		System.out.print(array[2]+"");
+		}
+
+}

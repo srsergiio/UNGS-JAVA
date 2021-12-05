@@ -1,0 +1,26 @@
+package P1;
+
+
+
+public class Practiva3 {
+
+/*	
+Ordenado (double array[]) {
+	double [] lista= new double[array.length];
+	int CountNull;
+	int correciones;
+	while(CountNull != array.length) {
+		for(int i =0;i<array.length;i++) {
+			if(array[i] < ) {
+		}
+	}
+	return lista[];
+}
+	*/
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[]array= {1,234,43,2,23};
+		System.out.print(""+array.length);
+		}
+
+}
