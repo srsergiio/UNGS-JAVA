@@ -1,7 +1,9 @@
 package C02_Variable_Y_Tipos;
 
 public class E22_Hora {
-
+	/*TEMAS
+	 * Float INT DOUBLE
+	 * */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int hora,minutos,segundos;
