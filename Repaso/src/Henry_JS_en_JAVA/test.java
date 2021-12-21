@@ -1,39 +1,29 @@
 package Henry_JS_en_JAVA;
 
 public class test {
-	static boolean  tieneTresDigitos1(int numero){
-		  //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
-		  //Escribe tu código aquí
-		if(numero>0){
-		    switch ((numero+"").length()){
-		      case 3: return true; 
-		      default: return false;
-		    }
-		  }else{ 
-		      switch ((numero+"").length()){
-		        case 4: return true; 
-		        default: return false;
-		    }
-		  }
+	static boolean encontrarLaPalabra(String cadena) {
+		  // Escribir una funcion que reciba un string (string) y retorne true si encuentra la palabra "henry" adentro.
+		  // si no, retorna false.
+		  // Ej:
+		  // encontrarLaBomba('bienvenidos a henry') => true;
+		  // encontrarLaBomba('hola que tal, como va?!') => false;
+
+		  // Tu código:
+		//indexOF
 		
-		}
-	static int doWhile(int numero) {
-		  //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
-		  //Retornar el valor final.
-		  //Usar el bucle do ... while.
-		  var i =0;
-		  do{
-		    i++;
-		    numero+=5;
-
-		  }while(i<8);
-		  return numero;
-		}
-
+		//ushif
+		//for maps
+		  for (int i =0 ;i<cadena.length();i++){
+			  System.out.println(cadena.charAt(i));
+			  	if((i+4) < cadena.length()) {if(cadena.charAt(i)=='h'&&cadena.charAt(i+1)=='e'&&cadena.charAt(i+2)=='n'&&cadena.charAt(i+3)=='r'&&cadena.charAt(i+4)=='y'){return true;}}
+		  }
+		    return false;
+}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(tieneTresDigitos1(-00));
-		System.out.println(doWhile(-1));
-	}
+		System.out.println(encontrarLaPalabra("bienvenidos2 a heenry"));
 
+
+	}
 }
