@@ -15,3 +15,19 @@
 2021-12-14 11:26:52,927 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2021-12-17 17:25:34,824 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2021-12-19 15:39:56,940 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-19 19:09:09,376 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-21 17:57:30,398 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-22 17:09:38,167 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-22 17:59:51,305 [Worker-51: Fetching remote refs from ssh://github.com/srsergiio/UNGS-JAVA.git] INFO  o.a.s.c.u.s.e.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2021-12-22 17:59:51,357 [Worker-51: Fetching remote refs from ssh://github.com/srsergiio/UNGS-JAVA.git] INFO  o.a.s.c.i.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory using Nio2ServiceFactoryFactory
+2021-12-22 17:59:53,828 [sshd-JGitSshClient[37bce56f]-nio2-thread-6] WARN  o.e.j.i.t.sshd.JGitClientSession - exceptionCaught(JGitClientSession[sergi@github.com/20.201.28.151:22])[state=Opened] SshException: Server key did not validate
+2021-12-22 17:59:53,830 [sshd-JGitSshClient[37bce56f]-nio2-thread-6] INFO  o.e.j.i.t.sshd.JGitClientSession - Disconnecting(JGitClientSession[sergi@github.com/20.201.28.151:22]): SSH2_DISCONNECT_HOST_KEY_NOT_VERIFIABLE - Server key did not validate
+2021-12-22 17:59:58,396 [sshd-JGitSshClient[6187602]-nio2-thread-6] WARN  o.e.j.i.t.sshd.JGitClientSession - exceptionCaught(JGitClientSession[sergi@github.com/20.201.28.151:22])[state=Opened] SshException: Server key did not validate
+2021-12-22 17:59:58,396 [sshd-JGitSshClient[6187602]-nio2-thread-6] INFO  o.e.j.i.t.sshd.JGitClientSession - Disconnecting(JGitClientSession[sergi@github.com/20.201.28.151:22]): SSH2_DISCONNECT_HOST_KEY_NOT_VERIFIABLE - Server key did not validate
+2021-12-23 00:07:25,400 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-23 08:24:45,422 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-23 11:44:12,870 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-23 15:22:08,442 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-23 17:16:05,106 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-24 00:22:17,372 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-24 06:40:05,281 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
