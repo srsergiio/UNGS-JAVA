@@ -18,17 +18,17 @@ public class E71_Prueba_Contatenacion {
 	
 	
 	public static void suma_Boolean_boolean(boolean a,boolean b) {
-		  print.print(a+b);// no se puede sumar boolean
+		//  print.print(a+b);// no se puede sumar boolean
 	}
 	
 	public static void suma_Boolean_char(boolean a,char b) {
-			Object TipodeArchivopordefecto = a+b;
-		  print.print(a+b);// no se puede sumar char y boolean
+		//	Object TipodeArchivopordefecto = a+b;
+		//  print.print(a+b);// no se puede sumar char y boolean
 	}
 	
 	public static void suma_Boolean_char(boolean a,int b) {
-		  Object TipodeArchivopordefecto = a+b;
-	  print.print(a+b);// no se puede sumar char y INT
+	//	  Object TipodeArchivopordefecto = a+b;
+	//  print.print(a+b);// no se puede sumar char y INT
 	}
 	
 	public static void suma_Boolean_String(boolean a,String b) {
