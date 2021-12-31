@@ -7,6 +7,12 @@ public class E71_Prueba_Contatenacion {
 		sumaStringChart("SERGIO.",'E');/*SUMA DE STRING + CHAR FORMAN UN STRING*/
 		suma_Boolean_String(true,"sergio") ;
 		suma_Char_Char('E','E');
+		
+		String x="a";
+		char x2='a';//ACCI
+	
+		char b=x2++;//Suma el valor del Acci mas 1
+		print.print((char)b);
 	}
 	
 	
