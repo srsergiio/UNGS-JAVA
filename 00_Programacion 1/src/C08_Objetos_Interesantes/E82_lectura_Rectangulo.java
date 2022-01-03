@@ -3,14 +3,14 @@ package C08_Objetos_Interesantes;
 import java.awt.Point;
 import java.awt.Rectangle;
 
-public class E82_lectura_Distancias {
+public class E82_lectura_Rectangulo {
 /*
  * 	a. Para el siguiente programa, dibujá un diagrama de estado mostrando el
 	estado del programa justo antes de que distancia termine. Incluí todas las
 	variables y parámetros y objetos a los cuales referencien esas variables.
 
 	b. ¿Cuál es la salida de este programa?
-
+		- la distancia entre el centro de un cuadrado y un punto en un eje carteciano simbolaticamente =5
 */
 	public static double distancia (Point p1, Point p2) {
 		int dx = p1.x - p2.x;
