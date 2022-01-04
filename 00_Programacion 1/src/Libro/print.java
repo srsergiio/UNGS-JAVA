@@ -3,12 +3,18 @@ package Libro;
 public class print {
 	
 	public static void main(String [] a) {
-		for (int i=0;i<500 ;i++) {
-			
-		}
+		print(factorial(10));
 	}
 	
-	
+	public static double factorial(double a) {
+
+		double factorial=a;
+		while(a>1) {
+			factorial=factorial*(a-1);
+			a--;
+		}
+		return factorial;
+	}
 	
 	
 // alt + shift + r = renombra todas la variables del mismo tipo
@@ -16,7 +22,7 @@ public class print {
 		System.out.println(S);
 	}
 
-	public static void p(double x1) {
+	public static void print(double x1) {
 		// TODO Auto-generated method stub
 		System.out.println(x1+"");
 	}

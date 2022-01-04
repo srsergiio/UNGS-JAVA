@@ -12,6 +12,8 @@ public class E83_Lectura_grow {
 		caja1.grow (1, 1);
 		Point p2 = buscarCentro (caja1);
 		imprimirPunto (p2);
+		
+	
 		}
 	/*
 			a. ¿Cuál es la salida del siguiente programa?
@@ -24,6 +26,8 @@ public class E83_Lectura_grow {
 			
 			
 			c. Al final de main, p1 y p2 ¿hacen aliasing? ¿Por qué sí o por qué no?
+			NO SE CREA EL aliasing por que se crea un nuevo  objeto en buscarCentro   y no se referencia a otro pre existente
+			
 					*/
 					
 			public static void imprimirPunto (Point p) {

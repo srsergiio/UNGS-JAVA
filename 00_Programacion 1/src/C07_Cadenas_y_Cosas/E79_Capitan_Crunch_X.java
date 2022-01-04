@@ -6,9 +6,8 @@ public class E79_Capitan_Crunch_X {
 		// TODO Auto-generated method stub
 		
 		print.print(CapitanCrunch (  "abcdefghijklmnopqrstuvwxyz", 13));
-		print.print("abcdefghijklmnopqrstuvwxyz");
-		print.print(CapitanCrunch (  "ABCDEFGHIJKLMNOPQRSTUVWXYZ", 13));
-		print.print("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+		print.print("nopqrstuvwxyzabcdefghijklm  <= RESULTADO ESPERADO" );
+
 	}
 	
 
