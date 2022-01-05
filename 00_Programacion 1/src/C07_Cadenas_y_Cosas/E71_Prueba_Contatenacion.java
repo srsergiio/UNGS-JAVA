@@ -1,5 +1,5 @@
 package C07_Cadenas_y_Cosas;
-import Libro.*;
+import LES.*;
 public class E71_Prueba_Contatenacion {
 
 	public static void main(String[] args) {

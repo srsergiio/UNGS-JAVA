@@ -1,5 +1,5 @@
 package C07_Cadenas_y_Cosas;
-import Libro.*;
+import LES.*;
 public class E74_Rarificar_Lectura {
 	
 	public static void rarificar (int x) { //(5)(1)(0)()()()()()

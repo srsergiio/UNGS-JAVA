@@ -1,5 +1,5 @@
 package C06_Interacion;
-import Libro.*;
+import LES.*;
 public class E66_miexp_FCompletar {
 
 	public static void main(String[] args) {

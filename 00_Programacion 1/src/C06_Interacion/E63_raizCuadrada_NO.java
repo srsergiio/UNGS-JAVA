@@ -1,5 +1,5 @@
 package C06_Interacion;
-import Libro.print;
+import LES.print;
 
 public class E63_raizCuadrada_NO {
 	public static void main(String[]s) {

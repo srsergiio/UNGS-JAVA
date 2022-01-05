@@ -1,5 +1,5 @@
 package C07_Cadenas_y_Cosas;
-import Libro.*;
+import LES.*;
 public class E78_Nombre {
 	//find, 
 	//toLower // todo a minuscula

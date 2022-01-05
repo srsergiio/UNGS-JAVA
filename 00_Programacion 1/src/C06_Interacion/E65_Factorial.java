@@ -1,10 +1,11 @@
 package C06_Interacion;
-import Libro.*;
-public class E65_Factorial {
 
+import LES.print;
+
+public class E65_Factorial {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		print.print(2);
+		print.print(7);
 		System.clearProperty("java.classpath");
 	}
 	
@@ -17,5 +18,4 @@ public class E65_Factorial {
 		}
 		return factorial;
 	}
-
 }
