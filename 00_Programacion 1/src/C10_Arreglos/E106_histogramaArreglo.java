@@ -6,8 +6,7 @@ public class E106_histogramaArreglo {
 
 
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {                
 		int []arr=arrNelementos(15);
 		imprimir_arrNelementos(arr);
 		int []arr2=histogramaArreglo(arr);
@@ -25,8 +24,7 @@ public class E106_histogramaArreglo {
 			}
 			if ( arr[i]<0 ) {
 				contadores[0]+=1;
-			}
-		   
+			}   
 	}	
 		return contadores;
 	}	
@@ -38,7 +36,6 @@ public class E106_histogramaArreglo {
 		return arr;
 	}	
 	public static void imprimir_arrNelementos(int[] arr) {
-		// TODO Auto-generated method stub
 		for (int i : arr) {
 			System.out.print(i+" ");
 		}System.out.println(" ");

@@ -5,7 +5,6 @@ public class E22_Hora {
 	 * Float INT DOUBLE
 	 * */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int hora,minutos,segundos;
 		hora=9;
 		minutos=9;

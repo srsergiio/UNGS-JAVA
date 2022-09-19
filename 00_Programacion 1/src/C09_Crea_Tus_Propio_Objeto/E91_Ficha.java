@@ -3,7 +3,6 @@ package C09_Crea_Tus_Propio_Objeto;
 public class E91_Ficha {
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		E91_Ficha domino = new E91_Ficha('z',10);
 		imprimirFicha(domino);
 	}

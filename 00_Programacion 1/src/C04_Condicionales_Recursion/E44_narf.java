@@ -16,7 +16,7 @@ public static void sup (String pepe, int bruno) {
 
 
 public static void clink (int tenedor) {
-		System.out.print ("Está el ");
+		System.out.print ("Estï¿½ el ");
 		sup("desayuno ", tenedor/*4*/) ;
 }
 
@@ -27,7 +27,6 @@ public static void ping (String cuerda) {
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 			int bis = 5;
 			int bas = 2;

@@ -5,7 +5,6 @@ package C10_Arreglos;
 public class E103_histogramaNotas_encapsular {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] Calificaciones= ARRNotas(20);
 		imprimirNotas(Calificaciones);
 		int[] NotasRepetridas=histogramaNotas(Calificaciones);

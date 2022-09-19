@@ -3,7 +3,7 @@ package C10_Arreglos;
 public class E101_doubleAleatorio {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int i=0;
 		while(i<1000) {
 		System.out.println(doubleAleatorio(0,10));	i++;}

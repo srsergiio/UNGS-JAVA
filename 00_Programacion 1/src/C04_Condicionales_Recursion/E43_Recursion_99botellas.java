@@ -9,20 +9,19 @@ static void Verso(int n) {
 	if (n>0) {
 		
 		imprime("Hay "+n+" botellas de cerveza en la pared, hay "+n+" botellas de cerveza,\r\n"
-				+ "una sola agarrás, y después la pasás, hay "+(n-1)+" botellas de cerveza en la\r\n"
+				+ "una sola agarrï¿½s, y despuï¿½s la pasï¿½s, hay "+(n-1)+" botellas de cerveza en la\r\n"
 				+ "pared.");
 		n--;
 		Verso(n);
 	}else {
-		imprime("No hay más botellas de cerveza en la pared, no hay más botellas de\r\n"
-				+ "cerveza, no las agarrarás, y no las pasarás, porque no hay más botellas de cerveza en la pared.");
+		imprime("No hay mï¿½s botellas de cerveza en la pared, no hay mï¿½s botellas de\r\n"
+				+ "cerveza, no las agarrarï¿½s, y no las pasarï¿½s, porque no hay mï¿½s botellas de cerveza en la pared.");
 	}
 }
 	
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Verso(99);
 	}
 

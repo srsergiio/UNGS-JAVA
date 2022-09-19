@@ -3,7 +3,7 @@ package C09_Crea_Tus_Propio_Objeto;
 public class E93_Racional {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		/*E92_Racional obj= new E92_Racional();
 		obj.imprimirRacional();
 		obj= new E92_Racional(1,-2);

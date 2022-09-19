@@ -3,12 +3,9 @@ import LES.*;
 public class E71_Prueba_Contatenacion {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		sumaStringChart("SERGIO.",'E');/*SUMA DE STRING + CHAR FORMAN UN STRING*/
 		suma_Boolean_String(true,"sergio") ;
 		suma_Char_Char('E','E');
-		
-		String x="a";
 		char x2='a';//ACCI
 	
 		char b=x2++;//Suma el valor del Acci mas 1
@@ -18,7 +15,7 @@ public class E71_Prueba_Contatenacion {
 	
 	
 	public static void sumaStringChart(String palabra,char letra) {
-		  String TipodeArchivopordefecto = palabra+letra;
+		String TipodeArchivopordefecto = palabra+letra;
 		print.print("String + Char = String : "+TipodeArchivopordefecto);
 	}
 	
@@ -38,8 +35,8 @@ public class E71_Prueba_Contatenacion {
 	}
 	
 	public static void suma_Boolean_String(boolean a,String b) {
-		  String TipodeArchivopordefecto = a+b;
-	  print.print("Boolean + String = String : "+a+b);
+		String TipodeArchivopordefecto = a+b;
+		print.print("Boolean + String = String : "+ TipodeArchivopordefecto);
 	}
 	
 	public static void suma_Char_Char(char a,char b) {
@@ -49,18 +46,18 @@ public class E71_Prueba_Contatenacion {
 	}
 	
 	public static void suma_Char_int(char a,int b) {
-		      int TipodeArchivopordefecto = a+b;
-	  print.print("char + int = int : "+a+b);
+		int TipodeArchivopordefecto = a+b;
+		print.print("char + int = int : "+TipodeArchivopordefecto);
 	}
 	
 	public static void suma_Char_Str(char a,String b) {
-	        String TipodeArchivopordefecto = a+b;
-	        print.print("char + String = String : "+ a+b); 
+		String TipodeArchivopordefecto = a+b;
+		print.print("char + String = String : "+ TipodeArchivopordefecto); 
 	}
 	
 	public static void suma_INT_Str(int a,String b) {
-          String TipodeArchivopordefecto = a+b;
-        print.print("INT + STRING = STRING : "+a+b);// 
+		String TipodeArchivopordefecto = a+b;
+        print.print("INT + STRING = STRING : "+TipodeArchivopordefecto);// 
 	}
 
 	

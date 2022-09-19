@@ -17,7 +17,7 @@ public class E45_chequearFermat {
 			if((elevarAPotencia(a,n)+elevarAPotencia(b, n))==elevarAPotencia(c, n)) {
 				print("Recorcholis, Fermat estaba equivocado!");
 			}else {
-				 print("“No, eso no funciona.”");
+				 print("ï¿½No, eso no funciona.ï¿½");
 
 			}
 		}else {
@@ -28,7 +28,6 @@ public class E45_chequearFermat {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		chequearFermat(6,8,10,2);
 	}

@@ -55,32 +55,7 @@ public class E109_Arr_a_RECURSIVOS {
 	}
 	
 	
-	public static int maximoEnRango (int [] arr , int indiceBajo,int indiceAlto){
-//		a. Escribí un método llamado maximoEnRango que tome un arreglo de enteros
-//		y un rango de índices (indiceBajo e indiceAlto), que encuentre el máximo
-//		valor del arreglo, considerando solamente los elementos entre indiceBajo
-//		e indiceAlto, incluyendo ambos extremos.
-		
-//		Este método debería ser recursivo. Si la longitud del rango es 1, es decir,
-//		si indiceBajo == indiceAlto, sabemos inmediatamente que el único elemento en el 
-//		rango es el máximo. Entonces ese es el caso base.
-		
-//		Si hubiera más de un elemento en el rango, podemos partir el arreglo en
-//		dos, encontrar el máximo en cada parte, y luego encontrar el máximo entre
-//		los dos máximos parciales.
-		
-		int MaxElemento = 0;
-		if (indiceBajo >=0 && indiceBajo<arr.length && indiceAlto<arr.length && indiceAlto>indiceBajo) {
-			for (int i = indiceAlto; i < indiceAlto+1; i++) {
-				if(arr[i]>MaxElemento) {
-					MaxElemento=arr[i];
-				}
-				
-			}
-		}
-		return MaxElemento;
-		
-	}
+
 	
 	
 	

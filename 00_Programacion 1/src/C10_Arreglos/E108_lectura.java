@@ -3,14 +3,13 @@ package C10_Arreglos;
 public class E108_lectura {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] bruno = hacer (5);
 		dub (bruno);
 		System.out.println (mus (bruno));  
-		//a. ¿Cuál es la salida del siguiente programa?
-		//b. Dibujá un diagrama de pila que muestre el estado del programa justo antes
+		//a. ï¿½Cuï¿½l es la salida del siguiente programa?
+		//b. Dibujï¿½ un diagrama de pila que muestre el estado del programa justo antes
 		//de la sentencia return de mus.
-		//c. Describí en pocas palabras lo que hace mus.
+		//c. Describï¿½ en pocas palabras lo que hace mus.
 	}
 			
 			public static int[] hacer (int n) {// crea un arr de 5 elementos del 1 al 5

@@ -26,4 +26,11 @@ public class print {
 		// TODO Auto-generated method stub
 		System.out.println(x1+"");
 	}
+	public static void printarr(int []arr) {
+		System.out.print( " [  ");
+		for (int i : arr) {
+			System.out.print(i+" , ");
+		}
+		System.out.print( " ]  ");
+	}
 }

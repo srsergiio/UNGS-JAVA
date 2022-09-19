@@ -3,7 +3,6 @@ package C10_Arreglos;
 public class E100_ClonarArr   {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[]arr1= {33,45,945,123,-0,3};
 		int[]arr2= clonarArreglo2(arr1);
 		imprimir(arr2);

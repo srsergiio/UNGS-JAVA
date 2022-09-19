@@ -3,11 +3,10 @@ package C09_Crea_Tus_Propio_Objeto;
 public class E92_Fecha {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		E92_Fecha nacimiento= new E92_Fecha(21,"marzo",1995);
 		nacimiento.nacimiento();
-	}
-	 
+	} 
 	int dia;
 	String mes;
 	int anio;

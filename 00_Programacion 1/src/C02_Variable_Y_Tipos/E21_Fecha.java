@@ -6,7 +6,6 @@ public class E21_Fecha {
 	 * 
 	 * */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String Saludo="Hola, Mundo";
 		System.out.println(Saludo);
 		System.out.println();

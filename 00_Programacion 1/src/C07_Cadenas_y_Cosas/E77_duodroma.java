@@ -3,23 +3,22 @@ import LES.*;
 public class E77_duodroma {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		print.print(esduódroma("aass22sdd"));
+		print.print(duodroma("aass22sdd"));
 
 	}
 	
-	public static boolean esduódroma(String s){
-		boolean esduódroma=true ;
+	public static boolean duodroma(String s){
+		boolean duodroma=true ;
 		int i=0;
 		while(i<s.length()) {	
 			if(esRepetida(s.charAt(i)  ,s)==false){
-				esduódroma=false ;
+				duodroma=false ;
 				break;
 			}
 			i++;	
 		}
 
-		return esduódroma;
+		return duodroma;
 		
 	}
 	

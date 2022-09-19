@@ -14,20 +14,20 @@ public class E35_Multsuma_caramba {
 	 * 
 	 * 
 	 * punto flotante: Tipo de variable (o valor) que puede contener tanto fracciones como enteros. En Java este tipo se llama double.
-	 *clase: Nombre para una colección de métodos. Hasta ahora, hemos usado las clases Math y System y hemos escrito clases llamadas Hola y
+	 *clase: Nombre para una colecciï¿½n de mï¿½todos. Hasta ahora, hemos usado las clases Math y System y hemos escrito clases llamadas Hola y
 	 *
 	 *	
-	método: Nombre para una secuencia de sentencias que realiza alguna
-	función útil. Los métodos pueden o no tomar parámetros, y pueden
+	mï¿½todo: Nombre para una secuencia de sentencias que realiza alguna
+	funciï¿½n ï¿½til. Los mï¿½todos pueden o no tomar parï¿½metros, y pueden
 	o no producir un resultado.
 	 *	
-	parámetro: Pieza de información que se provee al llamar un método. Losparámetros son como las variables en el sentido de que contienen
-	valores y son de algún tipo.
+	parï¿½metro: Pieza de informaciï¿½n que se provee al llamar un mï¿½todo. Losparï¿½metros son como las variables en el sentido de que contienen
+	valores y son de algï¿½n tipo.
 	 *	
-	argumento: Valor que se provee cuando se llama a un método. Este valor debe tener el mismo tipo que el parámetro correspondiente. En
-	castellano, parámetro y argumento tienden a utilizarse indistintamente.
+	argumento: Valor que se provee cuando se llama a un mï¿½todo. Este valor debe tener el mismo tipo que el parï¿½metro correspondiente. En
+	castellano, parï¿½metro y argumento tienden a utilizarse indistintamente.
 	 *
-	llamar: Causar que un método sea ejecutado.
+	llamar: Causar que un mï¿½todo sea ejecutado.
 	 * 
 	 * 
 	 * 
@@ -44,7 +44,6 @@ public class E35_Multsuma_caramba {
 		imprimir( x*Math.pow(Math.E, -x)+Math.sqrt(1-Math.pow(Math.E,-x)));
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		multsuma(1,2,3);
 		caramba(2);
 		double Funciones_math=Math.sin(Math.PI/4)+(Math.cos(Math.PI/4)/2);

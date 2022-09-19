@@ -3,7 +3,6 @@ package C10_Arreglos;
 public class E105_blanco {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int [] arr= {2,3,5,8,1,67,98,2};
 		System.out.print(blanco(arr,100));
 				

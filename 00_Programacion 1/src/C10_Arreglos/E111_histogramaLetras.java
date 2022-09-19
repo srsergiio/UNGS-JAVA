@@ -3,14 +3,13 @@ package C10_Arreglos;
 
 public class E111_histogramaLetras {
 	
-////	Escribí un método llamado histogramaLetras que tome una String como parámetro y 
-//	devuelva un histograma de las letras del String. El cero-ésimo elemento
-////	del histograma deber contener la cantidad de a’s en la String (mayúsculas y minúsculas); 
-//	el 25to elemento debe contener la cantidad de z’s. Tu solución debe
+////	Escribï¿½ un mï¿½todo llamado histogramaLetras que tome una String como parï¿½metro y 
+//	devuelva un histograma de las letras del String. El cero-ï¿½simo elemento
+////	del histograma deber contener la cantidad de aï¿½s en la String (mayï¿½sculas y minï¿½sculas); 
+//	el 25to elemento debe contener la cantidad de zï¿½s. Tu soluciï¿½n debe
 ////	recorrer el String una sola vez.
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Object [][] HG = histogramaLetras("sergio esquivel saibene");
 		 
 		print(HG);
