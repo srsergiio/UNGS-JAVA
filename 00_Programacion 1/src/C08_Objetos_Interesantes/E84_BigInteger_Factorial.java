@@ -1,7 +1,6 @@
 package C08_Objetos_Interesantes;
 
 import java.math.BigInteger;
-import LES.*;
 public class E84_BigInteger_Factorial {
 
 	public static void main(String[] args) {

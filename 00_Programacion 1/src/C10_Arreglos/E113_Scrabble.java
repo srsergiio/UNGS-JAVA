@@ -1,7 +1,4 @@
 package C10_Arreglos;
-
-import C09_Crea_Tus_Propio_Objeto.E91_Ficha;
-
 public class E113_Scrabble {
 
 //	En el Scrabble, cada jugador tiene un conjunto de fichas con letras, y el objetivo

@@ -33,11 +33,11 @@ public class IntList {
 
 	// traverse the list, printing each element
 	while (node != null) {
-	    System.out.print (node.cargo);
-	    node = node.next;
-	    if (node != null) {
-		System.out.print (", ");
-	    }
+		System.out.print (node.cargo);
+		node = node.next;
+		if (node != null) {
+			System.out.print (", ");
+		}
 	}
 	
 	System.out.println (")");
@@ -47,10 +47,10 @@ public class IntList {
 	System.out.print ("(");
 
 	if (head != null) {
-	    Node tail = head.next;
-	    Node.printBackward (tail);
-	    System.out.print (head);
-	}
+		Node tail = head.next;
+		Node.printBackward (tail);
+		System.out.print (head);
+		}
 	System.out.println (")");
     }	
 
@@ -104,8 +104,8 @@ class Node {
     }
     
     public static void Add(int cargo) {
-    	Node node = new Node();
-    	
+    Node node = new Node();
+
     }
     // other constructor
     public Node (int cargo, Node next) {
