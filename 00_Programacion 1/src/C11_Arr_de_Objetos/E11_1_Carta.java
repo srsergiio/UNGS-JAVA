@@ -43,6 +43,20 @@ talmente lleno. */
         }
     }
 
+    public static Boolean busqueda_binaria(E11_1_Carta [] mazo,E11_1_Carta carta) {
+        return false;
+    }
+    public static int busqueda_Lineal(E11_1_Carta []mazo,E11_1_Carta carta) {
+        int resultado = -1;
+        for (int i =0;i<mazo.length; i++){
+            resultado =  mazo[i]==carta? resultado=i:resultado;
+            if(resultado!=-1){
+                break;
+            }
+        }
+        return resultado;
+    }
+
 
         public static void main(String[] args) {
             E11_1_Carta objeto= new E11_1_Carta();
