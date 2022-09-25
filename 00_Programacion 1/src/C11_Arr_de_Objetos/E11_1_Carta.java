@@ -51,6 +51,7 @@ public class E11_1_Carta {
     }
 
     public static int busqueda_binaria(E11_1_Carta[] mazo, E11_1_Carta carta, int i, int hasta) {
+        if (i==hasta )  return -1;
         if (mazo[i].equals(carta)) {
             return i;
         }
@@ -75,11 +76,8 @@ public class E11_1_Carta {
 
     public static void main(String[] args) {
         E11_1_Carta objeto = new E11_1_Carta();
-        objeto = new E11_1_Carta(2, 8);
+        objeto = new E11_1_Carta(5, 2);
         E11_1_Carta[] mazo = construirMazo();
-        System.out.println("la carta esta en la posicion " + busqueda_Lineal(mazo,objeto));
-        imprimirCarta(objeto);
-        imprimirCarta(mazo[busqueda_Lineal(mazo,objeto)]); 
-        imprimirCarta(mazo[busqueda_binaria(mazo,objeto,(mazo.length/2),mazo.length)]);
+        System.out.println(busqueda_binaria(mazo,objeto,(mazo.length/2),mazo.length));
     }
 }
