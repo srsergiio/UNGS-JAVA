@@ -6,7 +6,8 @@ public class E11_1_Carta {
      * construirMazo que no tome parámetros y que devuelva un arreglo de Cartas to-
      * talmente lleno.
      */
-    int palo, valor;
+    public int palo;
+    public int valor;
 
     public E11_1_Carta() {
         this.palo = 0;
@@ -79,5 +80,13 @@ public class E11_1_Carta {
         objeto = new E11_1_Carta(5, 2);
         E11_1_Carta[] mazo = construirMazo();
         System.out.println(busqueda_binaria(mazo,objeto,(mazo.length/2),mazo.length));
+    }
+
+    public int compareTo(E11_1_Carta carta) {
+        return 0;
+    }
+
+    public int compareToMazo(E11_1_Carta carta) {
+        return 0;
     }
 }

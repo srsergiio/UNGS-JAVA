@@ -3,8 +3,6 @@ import LES.*;
 public class E79_Capitan_Crunch_X {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		print.print(CapitanCrunch (  "abcdefghijklmnopqrstuvwxyz", 13));
 		print.print("nopqrstuvwxyzabcdefghijklm  <= RESULTADO ESPERADO" );
 

@@ -49,7 +49,7 @@ public class E106_histogramaArreglo {
 			else if(i==0) {
 				System.out.println( "cantidad de elementos en el arreglo que son  <= 0, "+arr[i]);
 				}
-			else if (i==i) {
+			else if (i==arr[i]) {
 				System.out.println( "cantidad de elementos en el arreglo que son  == "+i+", "+arr[i]);
 				}
 	}

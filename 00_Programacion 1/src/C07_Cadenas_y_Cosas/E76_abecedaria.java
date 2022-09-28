@@ -5,8 +5,7 @@ import LES.*;
 public class E76_abecedaria {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		print.print(esAbecedaria("ágil"));
+		print.print(esAbecedaria("ï¿½gil"));
 	}
 	public static boolean esAbecedaria(String s) {
 		s=cleanString(s);

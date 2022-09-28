@@ -4,8 +4,6 @@ import java.math.BigInteger;
 public class E84_BigInteger_Factorial {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		factorialBI(30);
 		
 		/*

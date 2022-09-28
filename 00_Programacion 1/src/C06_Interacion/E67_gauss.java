@@ -3,8 +3,6 @@ package C06_Interacion;
 public class E67_gauss {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 	}
 	public static double gauss(int x, int n) {
 		int index=0;

@@ -1,0 +1,39 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "java (buildArtifact)",
+			"targetPath": "${workspaceFolder}/${workspaceFolderBasename}.jar",
+			"elements": [
+				"${compileOutput:00_Programacion 1}",
+				"${dependencies:00_Programacion 1}",
+				"${compileOutput:02_Programacion 2}",
+				"${dependencies:02_Programacion 2}",
+				"${compileOutput:03_Programacion 3}",
+				"${dependencies:03_Programacion 3}",
+				"${compileOutput:04_Java8+}",
+				"${dependencies:04_Java8+}",
+				"${compileOutput:05_Testing}",
+				"${dependencies:05_Testing}",
+				"${compileOutput:06_Base_de_Datos}",
+				"${dependencies:06_Base_de_Datos}",
+				"${compileOutput:07_versionamiento}",
+				"${dependencies:07_versionamiento}",
+				"${compileOutput:08_Doker}",
+				"${dependencies:08_Doker}",
+				"${compileOutput:09_Patrones_De _Diseño}",
+				"${dependencies:09_Patrones_De _Diseño}",
+				"${compileOutput:10_Spring}",
+				"${dependencies:10_Spring}",
+				"${compileOutput:Test_JavaScript}",
+				"${dependencies:Test_JavaScript}"
+			],
+			"problemMatcher": [],
+			"label": "java (buildArtifact): eclipse-workspace",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

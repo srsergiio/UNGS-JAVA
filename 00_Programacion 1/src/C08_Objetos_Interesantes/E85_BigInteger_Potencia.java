@@ -5,7 +5,6 @@ import java.math.BigInteger;
 public class E85_BigInteger_Potencia {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println(""+
 		potencia1(2,50)+"\n"+
 		potencia(2,50));

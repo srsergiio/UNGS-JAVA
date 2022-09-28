@@ -21,8 +21,6 @@ public class E52_esDivisible_tipodesalida {
 		return bo;
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		for(int i=0;i<99999*999999;i++) {
 			print (i);
 		print(esDivisible(i,2));

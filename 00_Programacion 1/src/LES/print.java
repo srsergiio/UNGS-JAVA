@@ -23,7 +23,6 @@ public class print {
 	}
 
 	public static void print(double x1) {
-		// TODO Auto-generated method stub
 		System.out.println(x1+"");
 	}
 	public static void printarr(int []arr) {

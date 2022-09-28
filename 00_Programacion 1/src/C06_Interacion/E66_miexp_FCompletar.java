@@ -3,7 +3,6 @@ import LES.*;
 public class E66_miexp_FCompletar {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int x=1;
 		print.print(miexp(x,2));
 		print.print(Math.exp(2));

@@ -3,7 +3,6 @@ package C06_Interacion;
 public class E62_encapsular {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		print(ParentesisPares("((3 + 7) * 2)"));
 		
 	}

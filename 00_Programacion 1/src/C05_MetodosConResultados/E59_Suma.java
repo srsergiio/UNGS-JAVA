@@ -3,7 +3,6 @@ package C05_MetodosConResultados;
 public class E59_Suma {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//print(metUno(3,4));/*sumadeRango m asta n*/
 		print(metDos(1,5)); /* factorialdeRango */
 	}

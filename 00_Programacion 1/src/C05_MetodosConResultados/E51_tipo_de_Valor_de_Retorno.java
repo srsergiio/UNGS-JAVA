@@ -28,8 +28,6 @@ public class E51_tipo_de_Valor_de_Retorno {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		print(esTriangulo(4,2,2));
 	}
 

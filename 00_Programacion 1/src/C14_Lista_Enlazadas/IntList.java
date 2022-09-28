@@ -56,11 +56,6 @@ public class IntList {
 
     public static void main (String[] args) {
 
-	// note: the following is a really bad way to build a list.
-	// warning signs of badness: allocating two different kinds
-	// of objects, accessing the instance variables of another class,
-	// using the constant 3 to set the length
-
 	// create an empty list
 	IntList list = new IntList ();
 
@@ -127,9 +122,3 @@ class Node {
         System.out.print (head + ", ");
     }    
 }
-
-// This program is part of "How to think like a computer scientist,"
-// by Allen B. Downey, which is available from thinkAPjava.com
-
-// This program is licensed under the GNU Free Software License,
-// the terms of which are available from www.gnu.org

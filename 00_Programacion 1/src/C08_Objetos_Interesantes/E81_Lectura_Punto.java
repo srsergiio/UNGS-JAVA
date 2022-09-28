@@ -5,7 +5,6 @@ import java.awt.Point;
 public class E81_Lectura_Punto {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int x = 5;
 		Point nada = new Point (1, 2);
 			System.out.println (pepe (x, nada));

@@ -1,14 +1,11 @@
 package C05_MetodosConResultados;
 
 public class E58_Recur_invertirCadena {
-	 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		imprimirCadena("Escapar de Latino america");
 		invertirCadena("Escapar de Latino america");
 	}
 	private static void invertirCadena(String string) {
-		// TODO Auto-generated method stub
 		String inverso="";
 		if(largo(string)==1) {
 			primero(string); 
@@ -23,7 +20,6 @@ public class E58_Recur_invertirCadena {
 	
 	
 	public static void imprimirInverso(String string) {
-		// TODO Auto-generated method stub
 		System.out.print(string);
 	}
 	
@@ -32,17 +28,16 @@ public class E58_Recur_invertirCadena {
 	
 	
 	private static void imprimirCadena(String string) {
-		// TODO Auto-generated method stub
 		System.out.println(string);
 		
 	}
 	
-	public static char primero (String s) {// primero: devuelve el primer carácter de la cadena dada
+	public static char primero (String s) {// primero: devuelve el primer carï¿½cter de la cadena dada
 		return s.charAt (0);
 	}
 	
 	
-	public static String resto (String s) {// último: devuelve una nueva cadena que contiene todas// las letras de la cadena dada, salvo la primera
+	public static String resto (String s) {// ï¿½ltimo: devuelve una nueva cadena que contiene todas// las letras de la cadena dada, salvo la primera
 		return s.substring (1, s.length());
 	}
 	
