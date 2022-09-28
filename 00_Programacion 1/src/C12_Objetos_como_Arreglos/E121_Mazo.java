@@ -39,26 +39,24 @@ class E121_Mazo extends E11_1_Carta{
     }
 
 
-    public int compareTo(E11_1_Carta c2){
-        System.out.println("c1 : "+this.palo+","+this.valor+" c2 : "+this.palo+","+this.valor);
-        if(this.palo==c2.palo && this.valor==c2.valor){
-            System.out.println("c1 : "+this.palo+","+this.valor+" c2 : "+this.palo+","+this.valor);
+    public static  int compareTomazo(E11_1_Carta c1,E11_1_Carta c2){
+        System.out.println("c1 : "+c1.palo+","+c1.valor+" c2 : "+c1.palo+","+c1.valor);
+        if(c1.palo==c2.palo && c1.valor==c2.valor){
+            System.out.println("c1 : "+c1.palo+","+c1.valor+" c2 : "+c1.palo+","+c1.valor);
             return 0;
         }
-        if (this.palo==c2.palo){
-            return this.valor>c2.valor?-1:1;
+        if (c1.palo==c2.palo){
+            return c1.valor>c2.valor?-1:1;
         }
-        return  this.palo > c2.palo ? -1:1;
+        return  c1.palo > c2.palo ? -1:1;
     }  
 
     public static int buscarBinario(E121_Mazo mazo,E11_1_Carta carta,int desde,int asta){
-        int Comperto= mazo.getE121_Mazo(desde).compareTo(carta);
-        if (desde==asta) return-1;
-        System.out.println("Error Busqueda: "+ Comperto);
-        switch(Comperto){
+        if (desde== asta || desde<0 || desde>mazo.getE121_Mazo().length)return -1;
+        switch(compareTomazo(mazo.getE121_Mazo(desde),carta)){
         case 0: return desde;
         case 1: return buscarBinario( mazo, carta, desde+1, asta);
-        case -1: return buscarBinario( mazo, carta, desde-1, asta);
+        case -1: return buscarBinario( mazo, carta, desde-1, desde);
         }
         return -1;
     }
@@ -66,9 +64,9 @@ class E121_Mazo extends E11_1_Carta{
 
     public static void main(String[] args){
         E121_Mazo mazo1= new E121_Mazo();
-        E11_1_Carta carta = new E11_1_Carta(2,0);
+        E11_1_Carta carta = new E11_1_Carta(-1,1);
         ImprimirMazo(mazo1);
-        System.out.println("Ubicada en : "+buscarBinario(mazo1,carta,2,51));
+        System.out.println("Ubicada en : "+buscarBinario(mazo1,carta,50,51));
         
     }
 
