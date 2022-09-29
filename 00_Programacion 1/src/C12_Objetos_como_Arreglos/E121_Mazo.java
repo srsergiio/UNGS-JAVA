@@ -64,7 +64,7 @@ class E121_Mazo extends E11_1_Carta{
 
     public static void main(String[] args){
         E121_Mazo mazo1= new E121_Mazo();
-        E11_1_Carta carta = new E11_1_Carta(-1,1);
+        E11_1_Carta carta = new E11_1_Carta(4,1);
         ImprimirMazo(mazo1);
         System.out.println("Ubicada en : "+buscarBinario(mazo1,carta,50,51));
         
