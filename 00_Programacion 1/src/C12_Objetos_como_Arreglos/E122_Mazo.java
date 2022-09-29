@@ -11,12 +11,8 @@ class E122_Mazo extends E11_1_Carta{
         int indice=0;
         for (int p=0;p<4;p++){
             for (int v=1;v<=13;v++){
-                System.out.println("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ERROR 1");
-                
                 this.Mazo[indice]= new E11_1_Carta(p,v);
-                System.out.println("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ERROR 2");
-                imprimirCarta(Mazo[indice]);
-                System.out.println("\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ERROR 3");
+                //imprimirCarta(Mazo[indice]);
                 indice++;
             }
         }
@@ -32,6 +28,7 @@ class E122_Mazo extends E11_1_Carta{
     public static  void ImprimirMazo(E122_Mazo mazo){
         String[] palos = { "Tréboles", "Diamantes", "Corazones", "Picas" };
         int i =0;
+        System.out.println("\n \n \n \n \n \n \n Consola : \n");
         for(E11_1_Carta carta:mazo.getE121_Mazo() ){
             System.out.println("ubicacion : "+i+" Carta: "+ carta.valor+" de "+palos[carta.palo]);i++;
         }
