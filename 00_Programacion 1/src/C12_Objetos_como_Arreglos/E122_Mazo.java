@@ -6,6 +6,10 @@ class E122_Mazo extends E11_1_Carta {
 
     E11_1_Carta[] Mazo;
 
+    public E122_Mazo(int i) {
+        this.Mazo = new E11_1_Carta[i];
+    }
+
     public E122_Mazo() {
         Mazo = new E11_1_Carta[52];
         int indice = 0;
